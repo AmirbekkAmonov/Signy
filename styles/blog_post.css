@@ -1,0 +1,246 @@
+main {
+	margin: 0 8%;
+}
+
+main p {
+	font-size: 12px;
+	font-weight: 500;
+	color: #061224;
+	opacity: 60%;
+}
+
+main h1 {
+	font-family: IBM Plex serif;
+	font-size: 40px;
+	font-weight: 500;
+	color: #061224e5;
+	opacity: 90%;
+	margin-top: 24px;
+}
+
+.b-post-main-btn {
+	margin-top: 24px;
+}
+
+.b-post-main-btn span {
+	font-size: 14px;
+	font-weight: 500;
+	color: #061224e5;
+	opacity: 90%;
+	margin-top: 3px;
+}
+
+.b-post-main-btn button {
+	width: 113px;
+	height: 24px;
+	padding: 0px 14px 0px 14px;
+	border-radius: 23px;
+	border: none;
+	cursor: pointer;
+	background-color: #e5e5e5;
+}
+
+.b-post-main-btn button:hover {
+	background-color: rgb(215, 214, 214);
+}
+
+.b-post-text-sec {
+	margin: 24px 8%;
+	display: flex;
+	gap: 65px;
+}
+
+.b-post-right p {
+	width: 100%;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.b-post-text-sec img {
+	width: 586px;
+	height: 423px;
+}
+
+.b-post-left p {
+	width: 100%;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.last-b-post h2 {
+	font-family: IBM Plex Serif;
+	font-size: 22px;
+	font-weight: 500;
+	color: #061224e5;
+	opacity: 90%;
+	text-align: center;
+	margin-top: 48px;
+}
+
+.blog-social {
+	display: flex;
+	gap: 30px;
+	justify-content: center;
+	margin-top: 24px;
+}
+
+.two-text {
+	display: flex;
+	justify-content: center;
+	gap: 20%;
+	margin-top: 24px;
+}
+
+.black-text h3 {
+	font-family: IBM Plex Serif;
+	font-size: 22px;
+	font-weight: 500;
+	color: #061224e5;
+	opacity: 90%;
+	text-align: start;
+}
+
+.black-text p {
+	font-size: 14px;
+	font-weight: 500;
+	color: #061224e5;
+	opacity: 90%;
+	margin-top: 19px;
+	text-align: start;
+}
+
+.blue-text h3 {
+	font-family: IBM Plex Serif;
+	font-size: 22px;
+	font-weight: 500;
+	text-align: end;
+	color: #1064e5;
+}
+
+.blue-text p {
+	text-align: end;
+	font-size: 14px;
+	font-weight: 500;
+	color: #061224e5;
+	opacity: 90%;
+	margin-top: 19px;
+}
+
+.form {
+	padding: 60px 0;
+	background-color: #d8f1f0;
+	margin-top: 48px;
+}
+
+.form h3 {
+	font-size: 40px;
+	font-weight: 500;
+	line-height: 48px;
+	text-align: center;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+	color: #061224e5;
+	margin-bottom: 30px;
+}
+
+.form p {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 33px;
+	text-align: center;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+	color: #061224e5;
+	margin-bottom: 20px;
+}
+
+.form form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+.form form input {
+	width: 300px;
+	height: 50px;
+	border: none;
+	border-radius: 37px;
+	padding: 0 20px;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 20px;
+	text-align: left;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+	color: #061224e5;
+	border: 1px solid #1064e5;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.form form input::placeholder {
+	color: #061224e5;
+}
+
+.form form input:focus {
+	outline: none;
+	border: 2px solid #1064e5;
+}
+
+.form form button {
+	height: 50px;
+	border: none;
+	border-radius: 41px;
+	padding: 0 20px;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 24px;
+	letter-spacing: 0.19em;
+	text-align: center;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+
+	color: #ffffff;
+	background-color: #1064e5;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	transition: all 0.3s ease-in-out;
+}
+
+.form form button:hover {
+	background-color: #1970f1;
+}
+
+@media (max-width: 800px) {
+	.form form input {
+		width: 70%;
+	}
+
+	.form form button {
+		width: 30%;
+	}
+}
+
+@media (max-width: 400px) {
+	.form form {
+		flex-direction: column;
+	}
+
+	.form form input {
+		width: 100%;
+	}
+
+	.form form button {
+		width: 100%;
+	}
+}
+
+@media (max-width: 1000px) {
+	.b-post-text-sec {
+		flex-direction: column;
+	}
+
+	.b-post-text-sec img {
+		width: 100%;
+		height: 100%;
+	}
+}
