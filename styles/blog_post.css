@@ -1,3 +1,7 @@
+.blog_post21 {
+	padding: 0 20px;
+}
+
 main p {
 	font-size: 12px;
 	font-weight: 500;
@@ -6,7 +10,6 @@ main p {
 }
 
 main h1 {
-	font-family: IBM Plex serif;
 	font-size: 40px;
 	font-weight: 500;
 	color: #061224e5;
@@ -46,6 +49,9 @@ main h1 {
 	gap: 65px;
 }
 
+.b-post-right {
+	width: 45%;
+}
 .b-post-right p {
 	width: 100%;
 	font-size: 18px;
@@ -53,8 +59,12 @@ main h1 {
 }
 
 .b-post-text-sec img {
-	width: 586px;
+	width: 536px;
 	height: 423px;
+}
+
+.b-post-left {
+	width: calc(55% - 65px);
 }
 
 .b-post-left p {
@@ -64,7 +74,6 @@ main h1 {
 }
 
 .last-b-post h2 {
-	font-family: IBM Plex Serif;
 	font-size: 22px;
 	font-weight: 500;
 	color: #061224e5;
@@ -233,6 +242,13 @@ main h1 {
 @media (max-width: 1000px) {
 	.b-post-text-sec {
 		flex-direction: column;
+	}
+	.b-post-left {
+		width: 100%;
+	}
+
+	.b-post-right {
+		width: 100%;
 	}
 
 	.b-post-text-sec img {
