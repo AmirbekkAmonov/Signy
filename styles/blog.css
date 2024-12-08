@@ -1,0 +1,290 @@
+<<<<<<< Updated upstream
+=======
+h1 {
+	font-family: IBM Plex Serif;
+	font-size: 40px;
+	font-weight: 500;
+	color: #061224e5;
+}
+
+.blog-glass-sec {
+	display: flex;
+	align-items: center;
+	gap: 48px;
+}
+
+.blog-glass-sec img {
+	width: 731px;
+	height: 422px;
+}
+
+.blog-glass-sec-text span {
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.blog-glass-sec-text h2 {
+	font-size: 40px;
+	font-weight: 600;
+	width: 60%;
+}
+
+.blog-glass-sec-btn button {
+	width: 113px;
+	height: 24px;
+	border-radius: 23px;
+	border: none;
+	cursor: pointer;
+	margin-top: 16px;
+}
+
+.blog-glass-sec-btn button:hover {
+	background-color: rgb(226, 226, 226);
+}
+
+.blog-glass-sec-text p {
+	font-size: 18px;
+	font-weight: 400;
+	width: 64%;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.blog-glass-sec-text a {
+	font-size: 16px;
+	font-weight: 600;
+	text-decoration: none;
+	color: #061224e5;
+}
+
+.blog-glass-bottom {
+	display: flex;
+	gap: 60px;
+}
+
+.blog-glass-bottom a {
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 500;
+	color: #061224e5;
+}
+
+.blog-glass-bottom a:hover {
+	text-decoration: underline #1064e5;
+}
+
+.sec-2 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 40px;
+	margin-top: 30px;
+}
+
+.blog-sec-2 img {
+	width: 370px;
+	height: 371px;
+}
+
+.blog-sec-2 span {
+	font-size: 14px;
+	font-weight: 500;
+	color: #061224e5;
+	margin-top: 13px;
+}
+
+.blog-sec-2 h2 {
+	font-size: 24px;
+	font-weight: 600;
+	color: #061224e5;
+}
+
+.blog-sec-2 button {
+	width: 113px;
+	height: 24px;
+	border-radius: 23px;
+	border: none;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+.blog-sec-2 button:hover {
+	background-color: rgb(226, 226, 226);
+}
+
+.blog-sec-2 p {
+	font-size: 18px;
+	font-weight: 400;
+	color: #061224e5;
+	width: 339px;
+	margin-top: 10px;
+}
+
+.blog-number {
+	display: flex;
+	gap: 3%;
+	margin-top: 5%;
+	justify-content: center;
+}
+
+.blog-number a {
+	text-decoration: none;
+	color: #061224e5;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.blog-number a:hover {
+	color: #1064e5;
+}
+
+.form {
+	padding: 60px 0;
+	background-color: #d8f1f0;
+	margin-top: 48px;
+}
+
+.form h3 {
+	font-size: 40px;
+	font-weight: 500;
+	line-height: 48px;
+	text-align: center;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+	color: #061224e5;
+	margin-bottom: 30px;
+}
+
+.form p {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 33px;
+	text-align: center;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+	color: #061224e5;
+	margin-bottom: 20px;
+}
+
+.form form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+.form form input {
+	width: 300px;
+	height: 50px;
+	border: none;
+	border-radius: 37px;
+	padding: 0 20px;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 20px;
+	text-align: left;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+	color: #061224e5;
+	border: 1px solid #1064e5;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.form form input::placeholder {
+	color: #061224e5;
+}
+
+.form form input:focus {
+	outline: none;
+	border: 2px solid #1064e5;
+}
+
+.form form button {
+	height: 50px;
+	border: none;
+	border-radius: 41px;
+	padding: 0 20px;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 24px;
+	letter-spacing: 0.19em;
+	text-align: center;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+	cursor: pointer;
+
+	color: #ffffff;
+	background-color: #1064e5;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	transition: all 0.3s ease-in-out;
+}
+
+.form form button:hover {
+	background-color: #1970f1;
+}
+
+.blog-text {
+	margin: 0 0 28px;
+}
+
+.blog-text h2 {
+	font-size: 40px;
+	font-weight: 600;
+	margin-top: 25px;
+}
+
+.blog-text p {
+	font-size: 18px;
+	font-weight: 400;
+	color: #061224e5;
+	margin-top: 12px;
+}
+
+.razvernut {
+	display: flex;
+	margin-top: 20px;
+	justify-content: center;
+	gap: 5px;
+}
+
+.razvernut a {
+	text-decoration: none;
+	color: #1064e5;
+}
+
+@media (max-width: 400px) {
+	.form form {
+		flex-direction: column;
+	}
+
+	.form form input {
+		width: 100%;
+	}
+
+	.form form button {
+		width: 100%;
+	}
+}
+
+@media (max-width: 800px) {
+	.blog-glass-sec {
+		flex-direction: column;
+	}
+
+	.blog-glass-sec img {
+		width: 90%;
+		height: 50%;
+	}
+
+	.blog-glass-bottom {
+		display: none;
+	}
+	.form form input {
+		width: 70%;
+	}
+
+	.form form button {
+		width: 30%;
+	}
+}
+>>>>>>> Stashed changes
