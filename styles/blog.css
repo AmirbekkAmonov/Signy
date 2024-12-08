@@ -3,14 +3,12 @@ h1 {
 	font-size: 40px;
 	font-weight: 500;
 	color: #061224e5;
-	margin-left: 8%;
 }
 
 .blog-glass-sec {
 	display: flex;
 	align-items: center;
 	gap: 48px;
-	margin-left: 8%;
 }
 
 .blog-glass-sec img {
@@ -60,7 +58,6 @@ h1 {
 .blog-glass-bottom {
 	display: flex;
 	gap: 60px;
-	margin-left: 8%;
 }
 
 .blog-glass-bottom a {
@@ -78,7 +75,7 @@ h1 {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	gap: 60px;
+	gap: 40px;
 	margin-top: 30px;
 }
 
@@ -225,7 +222,7 @@ h1 {
 }
 
 .blog-text {
-	margin: 0 8% 28px;
+	margin: 0 0 28px;
 }
 
 .blog-text h2 {
