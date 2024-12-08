@@ -29,13 +29,13 @@
                         <option value="tel">+38 077 777 77 77</option>
                         <option value="tel">+38 077 999 99 99</option>
                     </select>
-                    <select name="" class="dropdown index" id="">
-                        <option value="about">ПРО НАС</option>
+                    <select  name="" class="dropdown index" id="dropdown" onchange="navigateToLink()">
+                        <option value="about_us_p.html">ПРО НАС</option>
                         <option value="about">ПРО НАС2</option>
                         <option value="about">ПРО НАС3</option>
                         <option value="about">ПРО НАС4</option>
                     </select>
-                    <a href="#">ЦЕНЫ</a>
+                    <a href="./pages/blog.html">ЦЕНЫ</a>
                     <a href="./pages/contacts.html">КОНТАКТЫ</a>
                     <div class="header__btns">
                         <button class="header__btn">Вход</button>
@@ -248,7 +248,7 @@
                     <div class="cheerfully__images__content">
                         <div class="cheerfully__img">
                             <img src="./assets/imgs/Placeholder.png" alt="" />
-                            <span><img src="./assets/imgs/Placeholder_old.svg" alt="" /></span>
+                            <a href="./pages/about_us_p.html"><span><img src="./assets/imgs/Placeholder_old.svg" alt="" /></span></a>
                         </div>
                         <div class="cheerfully__text">
                             <p>28.05.2020</p>
@@ -258,7 +258,7 @@
                     <div class="cheerfully__images__content">
                         <div class="cheerfully__img">
                             <img src="./assets/imgs/Placeholder2.png" alt="" />
-                            <span><img src="./assets/imgs/Placeholder_old.svg" alt="" /></span>
+                            <a href="./pages/about_us_p.html"><span><img src="./assets/imgs/Placeholder_old.svg" alt="" /></span></a>
                         </div>
                         <div class="cheerfully__text">
                             <p>28.05.2020</p>
@@ -268,7 +268,7 @@
                     <div class="cheerfully__images__content">
                         <div class="cheerfully__img">
                             <img src="./assets/imgs/Placeholder3.png" alt="" />
-                            <span><img src="./assets/imgs/Placeholder_old.svg" alt="" /></span>
+                            <a href="./styles/about_us_p.css"><span><img src="./assets/imgs/Placeholder_old.svg" alt="" /></span></a>
                         </div>
                         <div class="cheerfully__text">
                             <p>28.05.2020</p>
@@ -447,6 +447,15 @@
         updateStepIndicator(swiper.realIndex);
 
 
+    </script>
+    <script>
+        function navigateToLink() {
+            var dropdown = document.getElementById("dropdown");
+            var selectedValue = dropdown.value;
+            if (selectedValue) {
+                window.location.href = selectedValue; // Tanlangan havolaga o'tish
+            }
+        }
     </script>
 </body>
 
