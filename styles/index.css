@@ -754,30 +754,21 @@
   width: 80%;
   margin: 0 auto;
   position: relative;
-  /* Ustma-ust joylashtirish uchun konteynerni asos qilib olamiz */
   height: 500px;
 }
 
 .person__video img {
   position: absolute;
-  /* Suratlarni bir-birining ustiga joylashtirish uchun */
   top: 0;
-  /* Har bir suratni bir joydan boshlatish */
   left: 50%;
-
   transform: translateX(-50%);
-
-  /* Suratlarning konteyner kengligiga moslashuvi uchun */
-
   opacity: 0;
-  /* Ko'rinmas holatga keltirish */
   transition: opacity 0.5s ease-in-out;
-  /* Silliq o‘tish effekti */
 }
 
 .person__video img:nth-child(1) {
   opacity: 1;
-  /* Birinchi suratni ko'rsatiladi */
+
   z-index: 1;
   height: 100%;
 }
