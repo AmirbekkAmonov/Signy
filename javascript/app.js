@@ -51,4 +51,24 @@ function topFunction() {
 
 
 
+document.querySelectorAll('.faq-question').forEach(question => {
+    question.addEventListener('click', () => {
+      const answer = question.nextElementSibling;
+      const icon = question.querySelector('.toggle-icon');
+  
+      // Toggle the visibility of the answer
+      if (answer.style.display === 'block') {
+        answer.style.display = 'none';
+        icon.textContent = '+'; // Change back to "+"
+      } else {
+        answer.style.display = 'block';
+        icon.textContent = '-'; // Change to "-"
+      }
+    });
+  });
+  
 
+
+
+  
+  
