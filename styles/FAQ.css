@@ -80,5 +80,85 @@ color: #061224;
 
 
 
+.background_2{
+    background-color: #D8F1F0;
+}
+
+.px_18{
+font-size: 18px;
+font-weight: 400;
+line-height: 33.5px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #061224E5;
+}
+
+.background_2 p, input{
+    text-align: center;
+    margin:0 auto;
+}
 
 
+.background_2 input{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+   border: 1px solid #061224E5;
+   border-radius: 40px;
+   padding: 17px 220px 17px 20px;   
+}
+
+.no{
+    padding-top: 34px;
+    padding-bottom: 15px;
+}
+
+.name{
+    padding: 24px 0 13px 0;
+    margin: auto;
+}
+
+.tut{
+display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.kirit{
+    padding: 22px 240px 100px 22px;
+    border-radius: 40px;
+margin-bottom: 30px;
+}
+
+
+
+.background_2 button{
+    padding: 10px 30px;
+font-size: 14px;
+font-size: 14px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.19em;
+text-align: center;
+border-radius: 41px;
+color: #FFFFFF;
+background-color: #1064E5;
+border: #1970f1 solid 1px;
+display: flex;
+margin: auto;
+text-align: center;
+}
+
+.background_2 button:hover{
+    background-color: #1970f1;
+}
+
+.but{
+padding-bottom: 30px;
+
+}
